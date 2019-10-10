@@ -1,0 +1,29 @@
+		body
+		{
+			padding: 20px 0;
+		}
+		table
+		{
+			border: 1px solid #000;
+			min-width: 400px;
+		}
+		th
+		{
+			border-bottom: 1px solid #000;
+			padding: 10px;
+		}
+		td
+		{
+			padding: 10px;
+			background: rgba(24,75,23,.5);
+		}
+		.thank
+		{
+			padding: 10px 0;
+			font-size: 24px;
+		}
+		a
+		{
+			color: #fff;
+			text-decoration: none;
+		}
