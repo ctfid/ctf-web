@@ -78,7 +78,7 @@ Dari sini kita tahu bahwa :
 
 Disini saya sudah membuat potongan kode untuk : 
 - [Brute force key](bruteforce_key.php)
-- [Mengetahui random nilai yang tergenerate pada  ```$_GET['num']](```abs.php)
+- [Mengetahui random nilai yang tergenerate pada $_GET['num']](abs.php)
 
 Oke , setelah itu kita lanjutkan pada proses sql injection .
 
