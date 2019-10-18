@@ -1,0 +1,107 @@
+*
+    padding: 0
+    margin: 0
+body
+    color: #FFF
+    background: #111111
+    padding: 0
+    margin: 0
+    .container-fluid
+        padding: 0
+        margin: 0
+        .header
+            position: relative
+            margin: 0
+            border-bottom: 5px solid #9118c0
+            padding: 0
+            .overflow
+                position: absolute
+                background: rgba(39,03 ,12 ,.5 )
+                top: 0
+                bottom: 0
+                left: 0
+                right: 0
+            .images-head
+                background: url('/sass/bg.jpg') no-repeat
+                width: 100%
+                background-attachment: fixed
+                background-size: cover
+                display: table
+                padding: 0
+                margin: 0
+                height: 100vh
+                span.title
+                    transition: 3s
+                    h1
+                        font-weight: 1000
+                    margin: 0
+                    text-shadow: -10px -5px 10px #9118c0
+                    padding: 0
+                    display: block
+                    height: 100%
+                    text-align: center
+                    display: table-cell
+                    vertical-align: middle
+                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+                    font-size: 45px
+                    z-index: -1
+        .body
+            padding: 20px
+            margin-top: 10%
+            margin-left: 10%
+            border-radius: 20px 0 0 20px 
+            background: #111111
+            border: 1px solid #9118c0
+            animation: animationBoXShadow 3s infinite
+            @keyframes animationBoXShadow
+                0%
+                    box-shadow: 0px 0px 0px #9118c0
+                50%
+                    box-shadow: 0px 0px 30px #9118c0
+                100%
+                    box-shadow: 0px 0px 0px #9118c0
+            .challenges
+                padding: 10px
+                .title
+                    display: block
+                    text-align: center
+                    width: 70%
+                    margin: 0 auto
+                    padding: 10px
+                    font-size: 24px
+                    color: #9118c0
+                    transition: .3s
+                    border-bottom: 2px solid #9118c0
+                .content
+                    padding: 10px 20%
+                    transition: 3s
+                    ul
+                        list-style-type: circle
+                        li
+                            padding: 10px
+                            font-size: 18px
+                            a
+                                display: inline
+                                text-decoration: none
+                                color: #ffffff
+        .footer
+            display: block
+            padding: 5px 30px
+            text-align: center
+            font-size: 15px
+            width: 25%
+            border-radius: 20px
+            margin: 60px auto 20px
+@media screen and ( max-width: 460px )
+    body
+        .container-fluid
+            .header
+                .images-head
+                    span.title
+                        font-size: 24px
+                        h1
+                            font-weight: 10
+            .footer
+                padding: 5px 10px
+                width: 60%
+
