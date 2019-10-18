@@ -1,0 +1,155 @@
+:root {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  background: #DEDEDE;
+  margin: 0;
+  padding: 0;
+}
+
+body .container {
+  width: 90%;
+  height: 90vh;
+  margin: 0 auto;
+}
+
+body .container .title {
+  background: #432490;
+  border-radius: 10px;
+}
+
+body .container .title h1 {
+  font-size: 32px;
+  padding: 5px;
+  text-align: center;
+  color: #DEDEDE;
+}
+
+body .container .boxed {
+  width: 70%;
+  background: #EEEEEE;
+  padding: 15px;
+  margin: 15vh auto;
+  -webkit-box-shadow: 0px 0px 10px .5px #432490;
+          box-shadow: 0px 0px 10px .5px #432490;
+  border-radius: 5px;
+}
+
+body .container .boxed .character {
+  display: block;
+}
+
+body .container .boxed .character .pictures {
+  display: block;
+  width: 25vw;
+  margin: 0 auto;
+  padding: 3px;
+  border-radius: 10px;
+  border: 1px solid #aaa;
+}
+
+body .container .boxed .character label {
+  display: block;
+  text-align: center;
+  font-size: 24px;
+}
+
+body .container .boxed form {
+  text-align: center;
+  display: block;
+}
+
+body .container .boxed form ul {
+  list-style-type: none;
+  text-align: left;
+}
+
+body .container .boxed form ul li {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+}
+
+body .container .boxed form ul li .checked {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  -webkit-transition: 1s;
+  transition: 1s;
+  position: absolute;
+  top: 20px;
+  left: -20px;
+}
+
+body .container .boxed form ul li label {
+  display: inline-block;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 24px;
+  color: #222;
+  font-weight: 400;
+}
+
+body .container .boxed form ul li input[type=radio] {
+  position: absolute;
+  visibility: hidden;
+}
+
+body .container .boxed form ul li input[type=radio]:checked ~ label {
+  color: #432490;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+body .container .boxed form ul li input[type=radio]:checked ~ .checked {
+  background: #4324E9;
+  -webkit-transition: .5s;
+  transition: .5s;
+  border-radius: 10px;
+}
+
+body .container .boxed form button {
+  margin: 20px auto;
+  display: block;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border: 0;
+  font-size: 18px;
+  border-radius: 10px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  background: #432490;
+  color: #FFF;
+  padding: 5px 20vw;
+}
+
+body .container .boxed form button:hover {
+  background: #4324E9;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+body .container .banner {
+  text-align: center;
+}
+
+body .container .banner span {
+  font-size: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+}
+
+@media screen and (max-width: 360px) {
+  .container .title h1 {
+    font-size: 18px !important;
+  }
+  .container .boxed .character label {
+    font-size: 12px !important;
+  }
+  .container .boxed form ul li label {
+    font-size: 12px !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
