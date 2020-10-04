@@ -1,5 +1,4 @@
-# Challenge1
+# CTF-WEB
 
-Repositori ini dibuat hanya untuk kesenangan semata
+Repo kumpulan soal ctf web iseng buatan sendiri
 
-:3
